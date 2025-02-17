@@ -1,0 +1,11 @@
+framework module UpshotPush {
+  umbrella header "UpshotPush.h"
+  export *
+
+  module * { export * }
+}
+
+module UpshotPush.Swift {
+  header "UpshotPush-Swift.h"
+  requires objc
+}
