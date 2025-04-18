@@ -12,9 +12,9 @@ import UserNotificationsUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public class UpshotNotificationContent {
-  public init()
-  public func displayEnhancePush(controller: UIKit.UIViewController, notification: UserNotifications.UNNotification)
+@objc @_inheritsConvenienceInitializers @objcMembers public class UpshotNotificationContent : ObjectiveC.NSObject {
+  @objc public func displayEnhancePush(controller: UIKit.UIViewController, notification: UserNotifications.UNNotification)
+  @objc override dynamic public init()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers open class UpshotNotificationService : UserNotifications.UNNotificationServiceExtension {

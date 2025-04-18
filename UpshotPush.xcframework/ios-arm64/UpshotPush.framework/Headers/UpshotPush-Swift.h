@@ -280,6 +280,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import ObjectiveC;
 @import UIKit;
 @import UserNotifications;
 #endif
@@ -303,6 +304,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+
 @class NSData;
 @class NSURL;
 
@@ -316,6 +318,15 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @interface UIImageView (SWIFT_EXTENSION(UpshotPush))
 - (void)loadWithUrl:(NSURL * _Nonnull)url completion:(void (^ _Nonnull)(UIImage * _Nullable))completion;
 - (void)getImageDataWithUrl:(NSURL * _Nonnull)url completion:(void (^ _Nonnull)(NSData * _Nullable))completion;
+@end
+
+@class UIViewController;
+@class UNNotification;
+
+SWIFT_CLASS("_TtC10UpshotPush25UpshotNotificationContent")
+@interface UpshotNotificationContent : NSObject
+- (void)displayEnhancePushWithController:(UIViewController * _Nonnull)controller notification:(UNNotification * _Nonnull)notification;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class UNNotificationRequest;

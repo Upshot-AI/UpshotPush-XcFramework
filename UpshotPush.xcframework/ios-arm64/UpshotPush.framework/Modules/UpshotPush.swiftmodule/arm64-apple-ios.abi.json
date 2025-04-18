@@ -200,27 +200,6 @@
         "printedName": "UpshotNotificationContent",
         "children": [
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UpshotNotificationContent",
-                "printedName": "UpshotPush.UpshotNotificationContent",
-                "usr": "s:10UpshotPush0A19NotificationContentC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:10UpshotPush0A19NotificationContentCACycfc",
-            "mangledName": "$s10UpshotPush0A19NotificationContentCACycfc",
-            "moduleName": "UpshotPush",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
             "kind": "Function",
             "name": "displayEnhancePush",
             "printedName": "displayEnhancePush(controller:notification:)",
@@ -244,21 +223,55 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10UpshotPush0A19NotificationContentC014displayEnhanceB010controller12notificationySo16UIViewControllerC_So14UNNotificationCtF",
+            "usr": "c:@M@UpshotPush@objc(cs)UpshotNotificationContent(im)displayEnhancePushWithController:notification:",
             "mangledName": "$s10UpshotPush0A19NotificationContentC014displayEnhanceB010controller12notificationySo16UIViewControllerC_So14UNNotificationCtF",
             "moduleName": "UpshotPush",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UpshotNotificationContent",
+                "printedName": "UpshotPush.UpshotNotificationContent",
+                "usr": "c:@M@UpshotPush@objc(cs)UpshotNotificationContent"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UpshotPush@objc(cs)UpshotNotificationContent(im)init",
+            "mangledName": "$s10UpshotPush0A19NotificationContentCACycfc",
+            "moduleName": "UpshotPush",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
-        "usr": "s:10UpshotPush0A19NotificationContentC",
+        "usr": "c:@M@UpshotPush@objc(cs)UpshotNotificationContent",
         "mangledName": "$s10UpshotPush0A19NotificationContentC",
         "moduleName": "UpshotPush",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
         ],
         "conformances": [
           {
@@ -274,6 +287,55 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -1161,508 +1223,557 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
       "kind": "StringLiteral",
       "offset": 174,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
       "kind": "StringLiteral",
       "offset": 194,
       "length": 7,
       "value": "\"image\""
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
       "kind": "StringLiteral",
       "offset": 217,
       "length": 5,
       "value": "\"gif\""
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
       "kind": "StringLiteral",
       "offset": 241,
       "length": 14,
       "value": "\"inline-image\""
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
       "kind": "StringLiteral",
       "offset": 276,
       "length": 10,
       "value": "\"carousel\""
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
       "kind": "StringLiteral",
       "offset": 313,
       "length": 17,
       "value": "\"manual-carousel\""
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
       "kind": "StringLiteral",
       "offset": 352,
       "length": 12,
       "value": "\"multi-icon\""
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
       "kind": "StringLiteral",
       "offset": 385,
       "length": 10,
       "value": "\"catalog1\""
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
       "kind": "StringLiteral",
       "offset": 416,
       "length": 10,
       "value": "\"catalog2\""
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
       "kind": "StringLiteral",
       "offset": 446,
       "length": 15,
       "value": "\"image-overlay\""
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
       "kind": "StringLiteral",
       "offset": 479,
       "length": 7,
       "value": "\"timer\""
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
       "kind": "IntegerLiteral",
       "offset": 541,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
       "kind": "IntegerLiteral",
       "offset": 563,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
       "kind": "StringLiteral",
       "offset": 594,
       "length": 9,
       "value": "\"#000000\""
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
       "kind": "StringLiteral",
       "offset": 628,
       "length": 9,
       "value": "\"#ffffff\""
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
       "kind": "FloatLiteral",
       "offset": 676,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
       "kind": "FloatLiteral",
       "offset": 720,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
       "kind": "FloatLiteral",
       "offset": 759,
       "length": 3,
       "value": "3.0"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/UpshotConstants.swift",
       "kind": "FloatLiteral",
       "offset": 798,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/MultiIcons\/UpshotMultiIconsView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/MultiIcons\/UpshotMultiIconsView.swift",
       "kind": "Dictionary",
-      "offset": 866,
+      "offset": 638,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/MultiIcons\/UpshotMultiIconsView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/MultiIcons\/UpshotMultiIconsView.swift",
       "kind": "Array",
-      "offset": 902,
+      "offset": 674,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/MultiIcons\/UpshotMultiIconsView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/MultiIcons\/UpshotMultiIconsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 936,
+      "offset": 708,
       "length": 2,
       "value": "80"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/MultiIcons\/UpshotMultiIconsView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/MultiIcons\/UpshotMultiIconsView.swift",
       "kind": "FloatLiteral",
-      "offset": 959,
+      "offset": 731,
       "length": 4,
       "value": "50.0"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/MultiIcons\/UpshotMultiIconsView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/MultiIcons\/UpshotMultiIconsView.swift",
       "kind": "StringLiteral",
-      "offset": 985,
+      "offset": 757,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Banner\/BannerPushView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/MultiIcons\/UpshotMultiIconsView.swift",
       "kind": "FloatLiteral",
-      "offset": 540,
+      "offset": 798,
+      "length": 4,
+      "value": "50.0"
+    },
+    {
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Banner\/BannerPushView.swift",
+      "kind": "FloatLiteral",
+      "offset": 463,
       "length": 5,
       "value": "250.0"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Banner\/BannerPushView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Banner\/BannerPushView.swift",
       "kind": "FloatLiteral",
-      "offset": 571,
+      "offset": 494,
       "length": 5,
       "value": "150.0"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Banner\/BannerPushView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Banner\/BannerPushView.swift",
       "kind": "FloatLiteral",
-      "offset": 598,
+      "offset": 521,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Banner\/BannerPushView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Banner\/BannerPushView.swift",
       "kind": "IntegerLiteral",
-      "offset": 714,
+      "offset": 637,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Banner\/BannerPushView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Banner\/BannerPushView.swift",
       "kind": "Dictionary",
-      "offset": 755,
+      "offset": 678,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Buttons\/ButtonsView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Banner\/BannerPushView.swift",
+      "kind": "FloatLiteral",
+      "offset": 715,
+      "length": 4,
+      "value": "50.0"
+    },
+    {
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Buttons\/ButtonsView.swift",
       "kind": "Array",
       "offset": 389,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Utilities\/UpshotUtilities.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Utilities\/UpshotUtilities.swift",
       "kind": "FloatLiteral",
-      "offset": 311,
+      "offset": 310,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Utilities\/UpshotUtilities.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Utilities\/UpshotUtilities.swift",
       "kind": "IntegerLiteral",
-      "offset": 7462,
+      "offset": 8137,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/UpshotNotificationContent.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/UpshotNotificationContent.swift",
       "kind": "FloatLiteral",
-      "offset": 326,
+      "offset": 348,
       "length": 5,
       "value": "100.0"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotManualCarouselView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotManualCarouselView.swift",
       "kind": "FloatLiteral",
-      "offset": 928,
+      "offset": 832,
       "length": 5,
-      "value": "200.0"
+      "value": "250.0"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotManualCarouselView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotManualCarouselView.swift",
       "kind": "Dictionary",
-      "offset": 1061,
+      "offset": 965,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotManualCarouselView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotManualCarouselView.swift",
       "kind": "Array",
-      "offset": 1097,
+      "offset": 1001,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotManualCarouselView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotManualCarouselView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1128,
+      "offset": 1032,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotManualCarouselView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotManualCarouselView.swift",
       "kind": "StringLiteral",
-      "offset": 1159,
+      "offset": 1063,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotManualCarouselView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotManualCarouselView.swift",
       "kind": "FloatLiteral",
-      "offset": 1192,
+      "offset": 1096,
       "length": 4,
       "value": "15.0"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotManualCarouselView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotManualCarouselView.swift",
       "kind": "FloatLiteral",
-      "offset": 1233,
+      "offset": 1137,
       "length": 4,
       "value": "50.0"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotManualCarouselView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotManualCarouselView.swift",
       "kind": "FloatLiteral",
-      "offset": 1266,
+      "offset": 1170,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotManualCarouselView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotManualCarouselView.swift",
       "kind": "FloatLiteral",
-      "offset": 1308,
+      "offset": 1212,
       "length": 3,
       "value": "5.0"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotManualCarouselView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotManualCarouselView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1254,
+      "length": 4,
+      "value": "50.0"
+    },
+    {
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotManualCarouselView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11383,
+      "offset": 11951,
       "length": 3,
       "value": "250"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotManualCarouselView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotManualCarouselView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11427,
+      "offset": 11995,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Catalogs\/UpshotVerticalCatalogView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Catalogs\/UpshotVerticalCatalogView.swift",
       "kind": "Dictionary",
-      "offset": 914,
+      "offset": 744,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Catalogs\/UpshotVerticalCatalogView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Catalogs\/UpshotVerticalCatalogView.swift",
       "kind": "Array",
-      "offset": 950,
+      "offset": 780,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Catalogs\/UpshotVerticalCatalogView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Catalogs\/UpshotVerticalCatalogView.swift",
       "kind": "FloatLiteral",
-      "offset": 972,
+      "offset": 803,
       "length": 4,
       "value": "64.0"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Catalogs\/UpshotVerticalCatalogView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Catalogs\/UpshotVerticalCatalogView.swift",
       "kind": "StringLiteral",
-      "offset": 998,
+      "offset": 829,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Catalogs\/UpshotVerticalCatalogView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Catalogs\/UpshotVerticalCatalogView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1024,
+      "offset": 855,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Catalogs\/UpshotVerticalCatalogView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Catalogs\/UpshotVerticalCatalogView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1045,
+      "offset": 876,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/PushView\/UpshotPushView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Catalogs\/UpshotVerticalCatalogView.swift",
+      "kind": "FloatLiteral",
+      "offset": 899,
+      "length": 4,
+      "value": "64.0"
+    },
+    {
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Catalogs\/UpshotVerticalCatalogView.swift",
+      "kind": "FloatLiteral",
+      "offset": 937,
+      "length": 4,
+      "value": "50.0"
+    },
+    {
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/PushView\/UpshotPushView.swift",
       "kind": "Dictionary",
-      "offset": 1127,
+      "offset": 945,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/PushView\/UpshotPushView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/PushView\/UpshotPushView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1177,
+      "offset": 995,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/OverlayImage\/UpshotOverlayImageView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/PushView\/UpshotPushView.swift",
       "kind": "FloatLiteral",
-      "offset": 612,
+      "offset": 1034,
       "length": 4,
       "value": "50.0"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/OverlayImage\/UpshotOverlayImageView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/OverlayImage\/UpshotOverlayImageView.swift",
       "kind": "FloatLiteral",
-      "offset": 653,
+      "offset": 511,
+      "length": 4,
+      "value": "50.0"
+    },
+    {
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/OverlayImage\/UpshotOverlayImageView.swift",
+      "kind": "FloatLiteral",
+      "offset": 552,
       "length": 5,
       "value": "150.0"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/OverlayImage\/UpshotOverlayImageView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/OverlayImage\/UpshotOverlayImageView.swift",
       "kind": "Dictionary",
-      "offset": 791,
+      "offset": 690,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/OverlayImage\/UpshotOverlayImageView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3087,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/OverlayImage\/UpshotOverlayImageView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/OverlayImage\/UpshotOverlayImageView.swift",
       "kind": "StringLiteral",
-      "offset": 3129,
+      "offset": 3425,
       "length": 16,
       "value": "\"attachment-url\""
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/OverlayImage\/UpshotOverlayImageView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/OverlayImage\/UpshotOverlayImageView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3580,
+      "offset": 3843,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/OverlayImage\/UpshotOverlayImageView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/OverlayImage\/UpshotOverlayImageView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3582,
+      "offset": 3845,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Catalogs\/UpshotHorizontalCatalogView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Catalogs\/UpshotHorizontalCatalogView.swift",
       "kind": "FloatLiteral",
-      "offset": 963,
+      "offset": 750,
       "length": 5,
       "value": "200.0"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Catalogs\/UpshotHorizontalCatalogView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Catalogs\/UpshotHorizontalCatalogView.swift",
       "kind": "StringLiteral",
-      "offset": 990,
+      "offset": 777,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Catalogs\/UpshotHorizontalCatalogView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Catalogs\/UpshotHorizontalCatalogView.swift",
       "kind": "Dictionary",
-      "offset": 1032,
+      "offset": 819,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Catalogs\/UpshotHorizontalCatalogView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Catalogs\/UpshotHorizontalCatalogView.swift",
       "kind": "Array",
-      "offset": 1068,
+      "offset": 855,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Catalogs\/UpshotHorizontalCatalogView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Catalogs\/UpshotHorizontalCatalogView.swift",
       "kind": "FloatLiteral",
-      "offset": 1100,
+      "offset": 887,
       "length": 4,
       "value": "50.0"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Catalogs\/UpshotHorizontalCatalogView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Catalogs\/UpshotHorizontalCatalogView.swift",
       "kind": "FloatLiteral",
-      "offset": 1135,
+      "offset": 922,
       "length": 4,
-      "value": "55.0"
+      "value": "64.0"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Catalogs\/UpshotHorizontalCatalogView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Catalogs\/UpshotHorizontalCatalogView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1163,
+      "offset": 950,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Catalogs\/UpshotHorizontalCatalogView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Catalogs\/UpshotHorizontalCatalogView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1184,
+      "offset": 971,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotAutoCarouselView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Catalogs\/UpshotHorizontalCatalogView.swift",
       "kind": "FloatLiteral",
-      "offset": 1087,
+      "offset": 1011,
+      "length": 4,
+      "value": "50.0"
+    },
+    {
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotAutoCarouselView.swift",
+      "kind": "FloatLiteral",
+      "offset": 804,
       "length": 5,
       "value": "200.0"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotAutoCarouselView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotAutoCarouselView.swift",
       "kind": "Dictionary",
-      "offset": 1220,
+      "offset": 937,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotAutoCarouselView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotAutoCarouselView.swift",
       "kind": "Array",
-      "offset": 1256,
+      "offset": 973,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotAutoCarouselView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotAutoCarouselView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1287,
+      "offset": 1004,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotAutoCarouselView.swift",
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotAutoCarouselView.swift",
       "kind": "StringLiteral",
-      "offset": 1310,
+      "offset": 1027,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/SDK\/iOS\/ios-push-framework\/UpshotPush\/UpshotPush\/Views\/Carousel\/UpshotAutoCarouselView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1085,
+      "length": 4,
+      "value": "50.0"
     }
   ]
 }
