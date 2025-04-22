@@ -401,6 +401,7 @@
             "mangledName": "$s10UpshotPush0A19NotificationServiceC10didReceive_18withContentHandlerySo21UNNotificationRequestC_ySo0jH0CctF",
             "moduleName": "UpshotPush",
             "overriding": true,
+            "isOpen": true,
             "objc_name": "didReceiveNotificationRequest:withContentHandler:",
             "declAttributes": [
               "Dynamic",
@@ -470,6 +471,7 @@
         "isOpen": true,
         "declAttributes": [
           "AccessControl",
+          "ObjCMembers",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)UNNotificationServiceExtension",
