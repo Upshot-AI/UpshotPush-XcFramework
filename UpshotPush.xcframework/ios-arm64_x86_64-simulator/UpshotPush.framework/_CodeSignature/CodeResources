@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/UpshotPush-Swift.h</key>
 		<data>
-		RSmhgX3BqkiceTMBy8CwIFX8XYc=
+		S+AfRRAI3+1UbrDwoE+nd6XFQ2A=
 		</data>
 		<key>Headers/UpshotPush.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		OnHGTodsAXx3kfKL3EtXbLjN7N0=
+		e0QlMy8InlVQZDOs0w7QefEQUfc=
 		</data>
 		<key>Modules/UpshotPush.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -38,19 +38,19 @@
 		</data>
 		<key>Modules/UpshotPush.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Hp7bEQvi+E2P269X9TG77jhuABk=
+		d0yR8iQHdwIkkqNRJmD9IN4STK0=
 		</data>
 		<key>Modules/UpshotPush.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		TThEo+9ScEYFEdD+nmonOPwHsDA=
+		PHotoTZ+aP9zVBC/hriVrseYUGQ=
 		</data>
 		<key>Modules/UpshotPush.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Hp7bEQvi+E2P269X9TG77jhuABk=
+		d0yR8iQHdwIkkqNRJmD9IN4STK0=
 		</data>
 		<key>Modules/UpshotPush.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dDm2itHTd5zO8rPyRFmnKVRG2Z0=
+		Ss4+i9+ER3JQEgrxa5d1j7hIkPI=
 		</data>
 		<key>Modules/UpshotPush.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -58,19 +58,19 @@
 		</data>
 		<key>Modules/UpshotPush.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		bb58Iv5gieZdtG1uecr+DkYMS/w=
+		N6t/x1Dm6EMLHvMfAMafN7x9sPU=
 		</data>
 		<key>Modules/UpshotPush.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		qLoHAiQAAVtP4KvyPy09Yau+F2E=
+		N8MpZcUunnPcZedv2X0pB6DYD9M=
 		</data>
 		<key>Modules/UpshotPush.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		bb58Iv5gieZdtG1uecr+DkYMS/w=
+		N6t/x1Dm6EMLHvMfAMafN7x9sPU=
 		</data>
 		<key>Modules/UpshotPush.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		J+fglR8XYGbZ7wAg6u4Dfw46NKM=
+		QrrwT/jdH8JA8Rzx8+NODg2FPkE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -163,7 +163,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5clpMs23rG1sDatxHjZ7aRSh/g7Idb5NgFu/UyJETdI=
+			918QEdXm0w4L4ftuNupvlvHS8aEMvVxCoct1lcvCo28=
 			</data>
 		</dict>
 		<key>Headers/UpshotPush.h</key>
@@ -184,28 +184,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZbWAE95hPpR/0JAVWe6x6v+izPZp6Qq7gvIx2Izm5ug=
+			KKzFcSwGUhy8L29MpfbZ5w10ofrz1TtHYfiGw+vL1DY=
 			</data>
 		</dict>
 		<key>Modules/UpshotPush.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FKessvnRP4FcsHvKUFaC0XX+mikuq+J4OBtFfRp562I=
+			oNUmj6i8WOlzvmw04XSHYnMSU0pBse5aKd7yjbcW8d0=
 			</data>
 		</dict>
 		<key>Modules/UpshotPush.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZbWAE95hPpR/0JAVWe6x6v+izPZp6Qq7gvIx2Izm5ug=
+			KKzFcSwGUhy8L29MpfbZ5w10ofrz1TtHYfiGw+vL1DY=
 			</data>
 		</dict>
 		<key>Modules/UpshotPush.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zShdJqRYJgYtUQZQ9qRUn/VGzzb1OcF3MSOzrYzC0Ec=
+			pKTwdvXRJFPV14Qwe45zN9/GQySkCpflxeITgjrUxZ8=
 			</data>
 		</dict>
 		<key>Modules/UpshotPush.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -219,28 +219,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ymX/269FagE9J95hIpOPhaJegpSV+y1wkpFwfa8fvCc=
+			OQDrxTYXb9n4Bt/FxmXWjQX8XVZyEtJZjJ0VQe/JuII=
 			</data>
 		</dict>
 		<key>Modules/UpshotPush.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jRsmYHUMEYp7DnY1MqogY0mw2I63hqQ6h66Sw2MWIJU=
+			sgEfyVrGqM/zNIv3koYivXXcqtPbVqnlZ43vVW/2Ewc=
 			</data>
 		</dict>
 		<key>Modules/UpshotPush.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ymX/269FagE9J95hIpOPhaJegpSV+y1wkpFwfa8fvCc=
+			OQDrxTYXb9n4Bt/FxmXWjQX8XVZyEtJZjJ0VQe/JuII=
 			</data>
 		</dict>
 		<key>Modules/UpshotPush.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H9AqCRnZ2DEpJaIIZYZD8OJ7qZ39sZQOCYMzYXJVVM0=
+			NCcOL43j7AlnNBnRcK6DZ7T05N6eVT6GVnLR5YwlzoI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
