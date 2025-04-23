@@ -1,9 +1,9 @@
 Pod::Spec.new do |spec|
   spec.name         = "UpshotPush"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.6"
   spec.summary      = "UpshotPush framework enables multiple push notification templates."
   spec.description  = "Extends the Push framework to NotificationContent and NotificationService Extensions, enabling template support for push notifications."
-  spec.homepage     = "https://www.upshot.ai/"
+  spec.homepage     = "https://github.com/Upshot-AI/UpshotPush-XcFramework"
   spec.license      = {:type => 'MIT'}
   spec.author             = {'Upshot' => 'developer@upshot.ai' }
   spec.platform     = :ios
